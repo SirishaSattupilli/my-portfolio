@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import Logo from '../../assets/logo.jpg'
-import '../my-navbar/NavBar.css';
+import Logo from '../../assets/logo.png'
+import '../my-navbar/MyNavBar.css';
 
-const NavBar = () => {
+const MyNavBar = () => {
     return (
         <>
             <Navbar collapseOnSelect fixed='top' expand="lg" variant="dark" className="nav-theme">
-                <Navbar.Brand href="#home">{/*<img src={Logo} alt="My Logo" className="logo"/>*/}</Navbar.Brand>
+                <Navbar.Brand href="#home">{<img src={Logo} alt="My Logo" className="logo"/>}</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
@@ -25,4 +25,4 @@ const NavBar = () => {
     )
 }
 
-export default NavBar
+export default MyNavBar

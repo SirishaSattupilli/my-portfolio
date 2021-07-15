@@ -1,11 +1,14 @@
 import './App.css';
-import NavBar from './components/my-navbar/NavBar'
+import MyCarousel from './components/carousel/MyCarousel';
+import MyNavBar from './components/my-navbar/MyNavBar'
+import TitleText from './components/title/TitleText';
 
 const App = () => {
   return (
     <div className="App">
-      <NavBar />
-      My Portfolio
+      <MyNavBar />
+      <MyCarousel />
+      <TitleText />
     </div>
   );
 }
