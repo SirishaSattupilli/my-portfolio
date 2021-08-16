@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.7a211302.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.11df912b.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.11df912b.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.8aa59639.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.8aa59639.js.map",
+    "static/js/2.6f75d369.chunk.js": "/my-portfolio/static/js/2.6f75d369.chunk.js",
+    "static/js/2.6f75d369.chunk.js.map": "/my-portfolio/static/js/2.6f75d369.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/main.7a211302.chunk.css.map": "/my-portfolio/static/css/main.7a211302.chunk.css.map",
+    "static/js/2.6f75d369.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.6f75d369.chunk.js.LICENSE.txt",
+    "static/media/Bootstrap_logo.32c24843.png": "/my-portfolio/static/media/Bootstrap_logo.32c24843.png",
+    "static/media/CSS3_logo.19c8605d.png": "/my-portfolio/static/media/CSS3_logo.19c8605d.png",
+    "static/media/Parallax-Background.e9464b0f.jpg": "/my-portfolio/static/media/Parallax-Background.e9464b0f.jpg",
+    "static/media/ReactRouter_logo.59eb6c21.png": "/my-portfolio/static/media/ReactRouter_logo.59eb6c21.png",
+    "static/media/ReactTaskTracker.47ed4550.png": "/my-portfolio/static/media/ReactTaskTracker.47ed4550.png",
+    "static/media/SirishaProfilePicCropped.be2c6c90.jpg": "/my-portfolio/static/media/SirishaProfilePicCropped.be2c6c90.jpg",
+    "static/media/slide1.14619b04.webp": "/my-portfolio/static/media/slide1.14619b04.webp",
+    "static/media/slide2.d58e7971.webp": "/my-portfolio/static/media/slide2.d58e7971.webp",
+    "static/media/slide3.ea32b5ab.webp": "/my-portfolio/static/media/slide3.ea32b5ab.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8aa59639.js",
+    "static/js/2.6f75d369.chunk.js",
+    "static/css/main.7a211302.chunk.css",
+    "static/js/main.11df912b.chunk.js"
+  ]
+}
