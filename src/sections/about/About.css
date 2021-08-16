@@ -1,0 +1,19 @@
+.about{
+    background-color: transparent;
+    font-size: 1.1em;
+    color: black;
+}
+
+.profile{
+    max-width: 18em;
+}
+
+.my-details{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.font-details{
+    font-size:3em;
+    font-weight: 500;
+    color: #231d5af8;
+}

@@ -1,0 +1,10 @@
+.accordian{
+    display: inline-block;
+    background: #663399;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}

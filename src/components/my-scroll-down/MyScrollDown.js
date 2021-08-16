@@ -1,31 +1,39 @@
 import React from 'react'
 import styled from 'styled-components'
+import Nav from 'react-bootstrap/Nav'
 
 const ScrollDown = styled.div`
 position: relative;
-z-index: 1;
-bottom: 1.6em;
+z-index: 1000;
+bottom: 3em;
 width: 100%;
-justify-content: center;
 display: flex;
-color: #fff;
-font-weight: bold;
+justify-content: center;
+background-color: transparent;
+font-weight: 800;
 text-shadow: 1px 1px #45a29e;
-
+color: #fff;
+animation: MoveUpDown 2s linear infinite;
 .turn{
     cursor: pointer;
     transform: rotate(90deg);
+    color: #fff;
+}
+@keyframes MoveUpDown{
+    0%, 100%{
+        bottom: 100px;
+    }
+    50%{
+        bottom: 50px;
+    }
 }
 `;
 
 const MyScrollDown = () => {
     return (
         <ScrollDown>
-            <div className="turn">
-                <span> &gt; </span>
-            </div>
+            <div><Nav.Link href="#about" className="turn" >&gt;</Nav.Link></div>
         </ScrollDown>
-
     )
 }
 

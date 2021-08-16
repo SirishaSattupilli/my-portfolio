@@ -45,7 +45,7 @@ const TitleText = () => {
                 <div className="sub">
                     <Typewriter
                         options={{
-                            strings: ['UI Developer', 'Learner'],
+                            strings: ['UI Developer', 'Backbase Forms Modeller', 'Learner'],
                             autoStart: true,
                             loop: true,
                             delay: 50

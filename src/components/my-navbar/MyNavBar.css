@@ -3,6 +3,31 @@
 }
 
 .nav-theme{
-    background-color: #101018f8;
-    font-size: 20px;
+    background-color: rgba(0, 0, 0, .7);;
+    font-size:20px;
 }
+
+.animate-navbar {
+    box-shadow: 1px 1px 1px #222;
+    -webkit-animation: moveDown 0.5s ease-in-out;
+    animation: moveDown 0.5s ease-in-out;
+  }
+  
+    @-webkit-keyframes moveDown  {
+    from {
+      transform: translateY(-5rem);
+    }
+    to {
+      transform: translateY(0rem);
+    }
+  }
+  
+    @keyframes moveDown  {
+    from {
+      transform: translateY(-5rem);
+    }
+    to {
+      transform: translateY(0rem);
+    }
+  }
+  
