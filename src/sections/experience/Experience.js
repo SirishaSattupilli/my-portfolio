@@ -17,9 +17,9 @@ const Experience = () => {
             <h1 className="pt-3 pb-3 text-center font-details">Experience</h1>
             <Tilt className="Tilt" options={{ max: 25 }} >
                 <Jumbotron fluid className="jumbo-style">
-                    <Container>
-                        <Card className="ml-5 mr-5">
-                        <Card.Body>
+                  <Container>
+                        {/* <Card className="ml-5 mr-5">
+                        <Card.Body> */}
                             <Tabs justify defaultActiveKey="capgemini" id="uncontrolled-tab-example" className="tab-title">
                                 <Tab eventKey="capgemini" title={<img className="img-size" src={Capgemini} alt="Capgemini" />} >
                                         <Card.Text className="pt-5 text-center font-details-card">
@@ -56,8 +56,8 @@ const Experience = () => {
                                         </Card.Text>
                                 </Tab>
                             </Tabs>
-                            </Card.Body>
-                        </Card>
+                            {/* </Card.Body>
+                        </Card> */}
                     </Container>
                 </Jumbotron>
             </Tilt>

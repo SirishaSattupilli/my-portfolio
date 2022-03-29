@@ -38,7 +38,7 @@ const MyNavBar = () => {
     return (
         <Transition>
             <Navbar fixed='top' expand="md" variant="dark" className={`animate-navbar nav-theme ${navDisplay}`}>
-                <Navbar.Brand href="#home">{<img src={Logo} alt="My Logo" className="logo" />}</Navbar.Brand>
+                {/* <Navbar.Brand href="#home">{<img src={Logo} alt="My Logo" className="logo" />}</Navbar.Brand> */}
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ml-auto">

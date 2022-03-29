@@ -12,11 +12,11 @@ const Contact = () => {
         <div id="contact">
             <h1 className="pt-3 pb-3 text-center font-details">Contact Me</h1>
             <Jumbotron className="jumbotron-main">
-                <Row>
-                    <Col className="d-flex justify-content-center">
+                <Row className="d-flex justify-content-center">
+                    {/* <Col className="d-flex justify-content-center"> */}
                         <div className="m-2">
                             <a href="mailto:sattupillisirisha53@gmail.com" target="_blank" rel="noreferrer">
-                                <Button variant="outline-danger" title="sattupillisirisha53@gmail.com">< FaEnvelope /> Email Me</Button></a>
+                                <Button variant="outline-danger" title="sattupillisirisha53@gmail.com">< FaEnvelope /> Email</Button></a>
                         </div>
                         <div className="m-2">
                             <a href="https://github.com/SirishaSattupilli" target="_blank" rel="noreferrer">
@@ -30,7 +30,7 @@ const Contact = () => {
                             <a href="https://www.facebook.com/sirisha.sattupilli/" target="_blank" rel="noreferrer">
                                 <Button variant="outline-info">< FaFacebook /> Facebook</Button></a>
                         </div>
-                    </Col>
+                    {/* </Col> */}
                 </Row>
             </Jumbotron>
 
