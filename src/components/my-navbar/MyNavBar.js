@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import Logo from '../../assets/logo.png'
+//import Logo from '../../assets/logo.png'
 import styled from 'styled-components'
 import '../my-navbar/MyNavBar.css';
 

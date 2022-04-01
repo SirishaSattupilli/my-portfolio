@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card'
 import ListGroup from 'react-bootstrap/ListGroup'
 import Image from 'react-bootstrap/Image'
 import ReactTaskTracker from '../../assets/projects-timeline/ReactTaskTracker.png'
+import ReactExpenseTracker from '../../assets/projects-timeline/ReactExpenseTracker.png'
 
 import "./ProjectTimeline.css"
 
@@ -61,6 +62,52 @@ const ProjectTimeline = () => {
                                         See Live
                                     </UrlButton>
                                     <UrlButton href="https://github.com/SirishaSattupilli/ReactTaskTracker" target="_blank">
+                                        Source Code
+                                    </UrlButton>
+                                </div>
+                            </div>
+                        </ImageEvent>
+                        <ImageEvent
+                            date="01/12/2021"
+                            className="text-center"
+                            text="React Expense Tracker"
+                            src={ReactExpenseTracker}
+                            alt="sample image - placeholder"
+                        >
+                            <div className="mt-1">
+                                <div>
+                                    <Accordion>
+                                        <Card>
+                                            <Accordion.Toggle as={Card.Header} eventKey="0" className="accordian text-center p-2" >
+                                                Project Details
+                                            </Accordion.Toggle>
+                                            <Accordion.Collapse eventKey="0">
+                                                <Card.Body className="text-left">
+                                                    <p><strong>Description: </strong>It is a simple react project to add and delete your expenses to your ExpenseList.</p>
+                                                    <hr />
+                                                    <p><strong>Features:</strong>
+                                                        <ul>
+                                                            <li>Keeps track of your expenses.</li>
+                                                            <li>Filters expenses based on year.</li>
+                                                            <li>Decent user experience.</li>
+                                                        </ul>
+                                                    </p>
+                                                    <hr />
+                                                    <p><strong>Tech stack:</strong></p>
+                                                    <ListGroup variant="flush">
+                                                        <ListGroup.Item><Image src={LogoHtml} rounded className="imagesize font-details-skills" /> HTML5</ListGroup.Item>
+                                                        <ListGroup.Item><Image src={LogoCss} rounded className="imagesize font-details-skills" /> CSS3</ListGroup.Item>
+                                                        <ListGroup.Item><Image src={LogoReact} rounded className="imagesize font-details-skills" /> React Js</ListGroup.Item>
+                                                    </ListGroup></Card.Body>
+                                            </Accordion.Collapse>
+                                        </Card>
+                                    </Accordion>
+                                </div>
+                                <div className="d-flex justify-content-between text-center">
+                                    <UrlButton href="https://sirishasattupilli.github.io/expense-tracker/" target="_blank">
+                                        See Live
+                                    </UrlButton>
+                                    <UrlButton href="https://github.com/SirishaSattupilli/expense-tracker" target="_blank">
                                         Source Code
                                     </UrlButton>
                                 </div>

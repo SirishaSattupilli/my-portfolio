@@ -1,6 +1,6 @@
 import React from 'react'
 import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+//import Col from 'react-bootstrap/Col'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Button from 'react-bootstrap/Button'
 import { FaEnvelope, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa'
